@@ -2,9 +2,6 @@
   "name": "tumblr-lab",
   "version": "0.0.0",
   "private": true,
-  "engines": {
-    "node": "7.8.0"
-  },
   "scripts": {
     "start": "node ./bin/www",
     "m": "nodemon ./bin/www",
