@@ -13,7 +13,7 @@ const session            = require('express-session');
 const MongoStore         = require('connect-mongo')(session);
 const mongoose           = require('mongoose');
 const flash              = require('connect-flash');
-const Multer = require('Multer');
+const Multer = require('multer');
 require ('dotenv').config();
 
 mongoose.connect(process.env.MONGODB_URI);
